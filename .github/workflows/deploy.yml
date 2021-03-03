@@ -27,8 +27,6 @@ jobs:
             ${{ runner.os }}-website-
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Run continous integration
-        run: yarn ci
       - name: Build application
         run: yarn build
       - name: Deploy to GitHub Pages
