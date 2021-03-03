@@ -1,14 +1,28 @@
 {
-  "name": "gnonce-gatsby",
-  "version": "1.0.1",
-  "description": "Gatsby Starter Gnonce",
+  "name": "@KongkowITPekanbaru/home",
+  "version": "1.0.0",
+  "description": "The official website for Kongkow IT Pekanbaru",
   "private": true,
+  "keywords": [
+    "gatsby",
+    "KIP",
+    "Kongkow IT Pekanbaru"
+  ],
+  "bugs": {
+    "url": "https://github.com/KongkowITPekanbaru/home/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KongkowITPekanbaru/home"
+  },
+  "license": "MIT",
+  "author": "Kongkow IT Pekanbaru",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{ts,tsx}",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
